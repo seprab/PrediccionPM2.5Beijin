@@ -51,7 +51,7 @@ day | day of data in this row | Mis impresiones de este dato son las mismas que 
 hour | hour of data in this row | Sin explorar la BD podría pensar que la hora si podría describir horas laborales y de transporte. Importante!
 *** PM2.5 *** | PM2.5 concentration (ug/m^3) | *** Dato a predecir ***
 PM10 | PM10 concentration (ug/m^3) | Muy posiblemente, este sea un dato directamente proporcional al dato a predecir. Importante!
-SO2 | SO2 concentration (ug/m^3) | x
+SO2 | SO2 concentration (ug/m^3) | En la investigación encontre que la suma de este elemento con agua y oxigeno se generan muchas particulas de contaminación. Importante!
 NO2 | NO2 concentration (ug/m^3) | x
 CO | CO concentration (ug/m^3) | x
 O3 | O3 concentration (ug/m^3) | x
