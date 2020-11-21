@@ -52,12 +52,12 @@ hour | hour of data in this row | Sin explorar la BD podría pensar que la hora 
 *** PM2.5 *** | PM2.5 concentration (ug/m^3) | *** Dato a predecir ***
 PM10 | PM10 concentration (ug/m^3) | Muy posiblemente, este sea un dato directamente proporcional al dato a predecir. Importante!
 SO2 | SO2 concentration (ug/m^3) | En la investigación encontre que la suma de este elemento con agua y oxigeno se generan muchas particulas de contaminación. Importante!
-NO2 | NO2 concentration (ug/m^3) | x
-CO | CO concentration (ug/m^3) | x
-O3 | O3 concentration (ug/m^3) | x
+NO2 | NO2 concentration (ug/m^3) | Dioxido de nitrogeno. No es relevante.
+CO | CO concentration (ug/m^3) | Monoxido de carbono. Muy relevante.
+O3 | O3 concentration (ug/m^3) | Ozono. Paila, utd no sirve porque esta muy arriba.
 TEMP | temperature (degree Celsius) | Ciertamente, la temperatura es el principal factor que ocasiona el aumento en la contaminación. Tambien es el descriptor de las temporadas... razón por la que pienso podría eliminar los meses y días.
-PRES | pressure (hPa) | x
-DEWP | dew point temperature (degree Celsius) | x
+PRES | pressure (hPa) | hectareas de presión. Si son relevantes. a mas de 900 empieza a ser muy relevate.... indicador importante para regiones.
+DEWP | dew point temperature (degree Celsius) | temperatura a la que el vapor dee aire se vuelve lluvia. Dada su relación con lluvia, eliminare la columna.
 RAIN | precipitation (mm) | Ciertamente, los días de lluvia las particulas caen al suelo y no viajan por el aire. Importante!
 wd | wind direction | Por lo que leí, en el sur siempre esta la mayor concentración de contaminación. De esta forma, es posible asumir que vientos con dirección al norte puede aumentar los indicadores en el pais. Importante!
 WSPM | wind speed (m/s) | Entre mas alta la velocidad, mayor la distribución de particulas. Importante!
